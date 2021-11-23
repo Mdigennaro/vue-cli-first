@@ -3,8 +3,8 @@
   <div id="app">
     
     <Title />
-    <main>M</main>
-    <footer>F</footer>
+    <Main />
+    <Footer />
 
   </div>
 
@@ -12,11 +12,15 @@
 
 <script>
 import Title from "./components/Title.vue"
+import Main from "./components/Main.vue"
+import Footer from "./components/Footer.vue"
 
 export default {
   name: 'App',
   components: {
-    Title
+    Title,
+    Main,
+    Footer
   }
 }
 </script>
